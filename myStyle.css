@@ -1,1 +1,8 @@
+::marker{
+   color: pink;
+}/*標記變粉紅色*/
 
+::selection{
+    color: white;
+    background: purple;
+}/*文字反白時會有紫色底*/
