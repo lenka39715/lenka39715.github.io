@@ -6,3 +6,7 @@
     color: white;
     background: purple;
 }/*文字反白時會有紫色底*/
+
+.line1 {
+   font-family:"Brush Script MT",cursive;
+}
