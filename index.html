@@ -32,6 +32,10 @@
 			background:"blue";
 		}/*按鈕顏色設為藍色*/
 		
+		p{
+			color:"red";
+			font-size:16px;}/*p內容顏色變紅，大小16*/
+		
 	</style>
 	
 	<body>
@@ -47,18 +51,21 @@
 		    <li><font color="#BF0060">Address: </font>No.300,Zhongda Rd.,Zhongli Dist.,Taoyuan City 320,Taiwan</li>
 		</ul>
 		<?php
-			$name="LenkaSun";
-			$height=157;
-			$weight=42;
-			$bmi=$weight/($height/100>*($height/100);
-			if($bmi<"18.5"{
-				echo "I'm slim,needing some feed!";
-			}
-			if($bmi<"24"&&$bmi>"18.5"){
-				echo "I'm healthy!";
-			}
-			If($bmi>"30"){
-				echo "I love food!";
+			
+			function show_bmi(){
+				$name="LenkaSun";
+				$height=157;
+				$weight=42;
+				$bmi=$weight/($height/100>*($height/100);
+				if($bmi<"18.5"{
+					echo "My BMI is".$bmi "I'm slim,needing some feed!";
+				}
+				if($bmi<"24"&&$bmi>"18.5"){
+					echo "My BMI is".$bmi "I'm healthy!";
+				}
+				If($bmi>"30"){
+					echo "My BMI is".$bmi "I love food!";
+				}
 			}
 		?>
 		<hr />
