@@ -53,15 +53,15 @@
 		<?php
 			
 			function show_bmi(){
-				$name="LenkaSun";
+				
 				$height=157;
 				$weight=42;
 				$bmi=$weight/($height/100)*($height/100);
-				if($bmi < "18.5"){
+				if($bmi < '18.5'){
 					echo "My BMI is".$bmi "I'm slim,needing some feed!";
 				}
 				
-				else if($bmi > "30"){
+				else if($bmi > '30'){
 					echo "My BMI is".$bmi "I love food!";
 				}
 				
@@ -72,6 +72,7 @@
 			show_bmi();
 			echo "<br>";
 		?>
+		
 		<hr />
 		<p id="click"><img src="https://image.flaticon.com/icons/png/512/2958/2958875.png" alt="shh.." height="30px">I have a secret...</p>
 		<button type="button" onclick="secret()">Uncover me!</button>
